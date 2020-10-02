@@ -1,0 +1,185 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    scroll-behavior: smooth;
+    
+}
+
+body{
+    overflow-y: auto;
+    font-family: 'Ubuntu', sans-serif;
+    
+    
+}
+.navbar{
+    background: rgba(0, 0,0, 0.7) url("/liscenseplate.jpg") ;
+    background-blend-mode: darken;
+    text-align: center;
+    display: block;
+    height: 10vh;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+   
+    
+}
+.navbar-icon{
+    display: inline-block;
+    padding: 10px;
+}
+
+.navbar-icon a{
+    color: white;
+}
+
+.projectIntro{
+    background: rgba(0, 0,0, 0.7) url("/liscenseplate.jpg") ;
+    background-blend-mode: darken;
+    color: white;
+    
+    display: flex;
+    height: 90vh;
+    flex-direction: row;
+   
+}
+
+.heading{
+   
+    text-align: center;
+    color:white;
+    margin-top: 33px;
+    width: 100%;
+    text-align: center;
+    height: 70%;
+    
+    margin-top: 80px;
+}
+
+.heading h1{
+    padding-top: 4%;
+    margin: auto;
+    max-width: 50%;
+}
+
+.heading a{
+    font-size: 70px;
+    padding-top: 20px;
+}
+
+.Buttons{
+    margin: auto;
+    width: 50%;
+}
+
+.headingButton{
+    font-size: 60px
+}
+
+
+.headingRight{
+    display: inline-block;
+    width:30%;
+    height: 70%;
+    margin-top: 33px;
+}
+
+.cImage{
+  height: 70vh;
+  border: 2px solid black;
+  border-radius: 15px;
+}
+
+.Points{
+    display: flex;
+    padding-bottom: 20px;
+    margin: 20px;
+}
+.fpDesc{
+    padding: 0 30px;
+}
+
+.left{
+    flex-direction: row-reverse;
+}
+
+.keyPointImage{
+    width: 240px;
+    height: 240px;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+h1{
+    text-align: center;
+}
+
+.about{
+    padding-top: 30px;
+    background-color: #a6f6f1;
+}
+
+.aboutMe{
+    height: 50vh;
+    display: flex;
+}
+.myimage{
+    padding-top: 25px;
+    text-align: center;
+    width: 50%;
+}
+.myDesc{
+    padding-top: 25px;
+    position: relative;
+    width: 50%;
+}
+
+.projectKeyPoints{
+    margin-top: 50px;
+}
+
+.video{
+    display: block;
+    text-align: center;
+}
+
+video{
+    width: 60%;
+    margin-top: 30px;
+}
+
+
+.contactLinks{
+    background: rgba(0, 0,0, 0.7) url("/liscenseplate.jpg") ;
+    background-blend-mode: darken;
+    margin-top: 20px ;
+    padding-top: 20px;
+    color: white;
+    height: 40vh;
+}
+.links{
+    margin: auto;
+    text-align: center;
+    max-width: 60%;
+}
+
+.link {
+    padding: 10px;
+    font-size: 50px;
+}
+
+#Resume{
+    position: absolute;
+    bottom: 40px;
+    left: 50%;
+}
+
+.footer{
+    margin-top: 50px;
+}
+
+.techUsed{
+    padding-top: 40px;
+    background-color: #a6f6f1;
+}
